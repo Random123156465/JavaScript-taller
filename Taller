@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Taller</h1>
+<h4>Punto 1</h4>
+<p>Haga Click para la alerta.</p>
+
+<button onclick="myFunction()">Haga Click</button>
+
+<script>
+function myFunction() {
+  alert("Ventana de Alertas");
+}
+
+</script>
+
+<h4> Punto 2 </h4>
+
+<script>
+  var numero;
+  numero=prompt('PUNTO 2','');
+  document.write(numero)
+</script>
+
+<h4> Punto 3 </h4>
+
+<script>
+
+var num1;
+var num2;
+num1=prompt ('Ingrese un Numero')
+num2=prompt ('Ingrese otro Numero')
+document.write ( parseInt(num1)+ parseInt(num2))
+
+</script>
+
+<h4> Punto 4 </h4>
+
+<script>
+var num = prompt(&quot;Ingrese un Numero, PUNTO CUATRO &quot;)
+ 
+var factorial = function(n) {
+    if(n == 0) {
+        return 1
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+ 
+console.log(factorial(num));
+
+ 
+</script>
+</body>
+</html>
